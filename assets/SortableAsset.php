@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class SortableAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/kotchuprik/yii2-sortable-widgets/assets/files';
+    public $sourcePath = '@vendor/fatelord/yii2-sortable-widgets/assets/files';
 
     public $js = [
         'js/sortable-widgets.js',
