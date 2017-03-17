@@ -21,7 +21,7 @@ class Column extends \yii\grid\Column
         return Html::tag('div', '&#9776;', [
             'class' => 'sortable-widget-handler',
             //'data-id' => $model->id,
-            'data-id' => key, //use key instead of model field since this column might vary across applications (key is teh value if the active column)
+            'data-id' => $key, //use key instead of model field since this column might vary across applications (key is teh value if the active column)
         ]);
     }
 }
